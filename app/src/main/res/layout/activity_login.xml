@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:gravity="center"
+            android:text="LogIn"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Email or Phone"
+            android:paddingTop="@dimen/cardview_default_radius" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingTop="@dimen/cardview_default_radius" />
+        <Button
+            android:id="@+id/btnlogin"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/text_registrasi"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Registrasi" />
+    </LinearLayout>
+</LinearLayout>
+
+    <!--    nama    :Rahmatullah Rizki-->
+    <!--    Nim     :10119283-->
+    <!--    Kelas   :IF 7-->
+    <!--    Tanggal :22-04-2022-->
